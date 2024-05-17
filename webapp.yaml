@@ -22,7 +22,7 @@ spec:
         env:
         - name: USER_NAME
           valueFrom:
-          secreteKeyRef:
+          secretKeyRef:
            name: mongo-secret
            key: mongo-user
         - name: USER_PWD
