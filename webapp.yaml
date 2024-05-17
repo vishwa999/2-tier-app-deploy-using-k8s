@@ -27,7 +27,7 @@ spec:
            key: mongo-user
         - name: USER_PWD
           valueFrom:
-          secreteKeyRef:
+          secretKeyRef:
            name: mongo-secret
            key: mongo-password
         - name: DB_URL
